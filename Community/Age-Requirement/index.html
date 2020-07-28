@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<!-- Website metadata -->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		
+		<!-- Website title and description -->
+		<title>Kat Digital • Age Requirement</title>
+		<meta name="description" content="Kat Digital Privacy Statement, Terms of Service and other Kat Digital legal stuff.">
+		
+		<link rel="shortcut icon" href="https://cdn.kat.gg/Branding/Version1/Icon_White.png">
+		
+		<link href="../../static/font.css" rel="stylesheet" type="text/css">
+		<link href="../../static/reset.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="../../static/styles.css" media="screen" rel="stylesheet" type="text/css">
+		
+		<!-- Markdown -->
+		<script src="https://cdn.rawgit.com/showdownjs/showdown/1.9.1/dist/showdown.min.js"></script>
+		<script>
+			function renderText() {
+				var obj = document.getElementById("legal");
+				var converter = new showdown.Converter();
+				obj.innerHTML = converter.makeHtml(obj.innerHTML);
+			}
+		</script>
+		
+		<!--TODO: SEO metadata -->
+	</head>
+	
+	<body onload="renderText();">
+		<div id="wrapper">
+			<!-- Website header -->
+			<section id="header">
+				<div>
+					<a href="https://dev.kat.gg"><img src="https://cdn.kat.gg/Branding/Version1/Logo_Main.png" width="124"></a>
+					<div>
+						<h1>Kat Digital • Age Requirement</h1>
+						<p>Age requirement to use our products and services.</p>
+						<noscript><b>For this page to work correctly, we require that you enable JavaScript.</b><br/><br/></noscript>
+						<div class="underline"></div>
+					</div>
+				</div>
+			</section>
+			
+<!-- Legal Text -->
+<section id="legal">
+# Age Requirement
+You must be 13 years of age or above to use our websites, products and services. This same requirement applies to our social communities on Discord. You may review Discord's Terms of Service here: <a href="https://discord.com/new/terms" class="external">https://discord.com/new/terms</a>
+
+We may ask you to confirm your age if we think that you are not old enough to use our websites or social communuties, such as Discord.
+
+## What happens after my account is suspended?
+If we find that you're not old enough to use our websites, products or services, your account will be deleted after 30 days. If you are old enough to use our websites, products or services, we have a grace period during which you may to correct the issue by contacting our customer support via email (info@kat.digital). To enforce our policies, accounts are suspended during this grace period.
+
+## How do I unsuspend my account?
+To verify your age, we may ask for government issued ID. We need to do this to enforce our legal policies and to stay compliant with all data protection laws.
+
+To submit your government issued ID, you can contact us via email (info@kat.digital). We use Protonmail for end-to-end encrypted email. We only use your government issued ID for verification purposes only.
+</section>
+			
+			<!-- Website footer -->
+			<section id="footer">
+				<ul>
+					<li><a href="https://policies.kat.digital/Terms">Terms of Service</a></li>
+					<li><a href="https://policies.kat.digital/Privacy">Privacy Statement</a></li>
+					<li><a href="https://dev.kat.gg/">Developer Forum</a></li>
+					<li><a href="https://docs.kat.gg/">Documentation</a></li>
+					<li><a href="https://dev.kat.gg/g/Support/">Customer Support</a></li>
+				</ul>
+			</section>
+		</div>
+	</body>
+</html>

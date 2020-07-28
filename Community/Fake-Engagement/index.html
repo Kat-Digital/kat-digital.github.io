@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<!-- Website metadata -->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		
+		<!-- Website title and description -->
+		<title>Kat Digital • Fake Engagement Policy</title>
+		<meta name="description" content="Kat Digital Privacy Statement, Terms of Service and other Kat Digital legal stuff.">
+		
+		<link rel="shortcut icon" href="https://cdn.kat.gg/Branding/Version1/Icon_White.png">
+		
+		<link href="../../static/font.css" rel="stylesheet" type="text/css">
+		<link href="../../static/reset.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="../../static/styles.css" media="screen" rel="stylesheet" type="text/css">
+		
+		<!-- Markdown -->
+		<script src="https://cdn.rawgit.com/showdownjs/showdown/1.9.1/dist/showdown.min.js"></script>
+		<script>
+			function renderText() {
+				var obj = document.getElementById("legal");
+				var converter = new showdown.Converter();
+				obj.innerHTML = converter.makeHtml(obj.innerHTML);
+			}
+		</script>
+		
+		<!--TODO: SEO metadata -->
+	</head>
+	
+	<body onload="renderText();">
+		<div id="wrapper">
+			<!-- Website header -->
+			<section id="header">
+				<div>
+					<a href="https://dev.kat.gg"><img src="https://cdn.kat.gg/Branding/Version1/Logo_Main.png" width="124"></a>
+					<div>
+						<h1>Kat Digital • Fake Engagement Policy</h1>
+						<p>We don't allow anything that artificially increases the number of replies, likes, etc.</p>
+						<noscript><b>For this page to work correctly, we require that you enable JavaScript.</b><br/><br/></noscript>
+						<div class="underline"></div>
+					</div>
+				</div>
+			</section>
+			
+<!-- Legal Text -->
+<section id="legal">
+# Fake Engagement Policy
+
+We don't allow any behavior that artificially increases the amount of likes, replies, read time or any other metric on your own or someone else's posts. This includes, but is not limited to, the following behaviors:
+
+- Using alternate accounts in general - we intend to limit every user to a single account. Behavior forbidden under this policy includes, but is not limited to:
+  - Liking your own posts, or to liking another person's post multiple times
+  - Submitting more than one vote on polls
+  - Replying to topics as though you were a different person
+- Offering to like someone's post, but only if they like one of yours
+- Offering to like someone's post if they make changes to it
+- Asking for likes on your post, or telling people to cast specific votes to unfairly skew results
+
+## How Engagement is Measured
+We use <a href="https://discourse.org" class="external">Discourse</a> as our fourm software. Discourse engagement is measured in the following ways:
+
+- Percentage of topics read vs total topics created
+- Percentage of posts read vs total posts created
+- Average time spent per session
+- Number of replies
+- Number of likes
+
+## Violations of this Policy
+If you violate this policy, we’ll send you a message to let you know. If this is your first time violating our Community Guidelines, you’ll get a warning with no penalty to your account. If it’s not, we’ll issue a strike against your account. If you get 3 strikes, your account will be terminated.
+</section>
+			
+			<!-- Website footer -->
+			<section id="footer">
+				<ul>
+					<li><a href="https://policies.kat.digital/Terms">Terms of Service</a></li>
+					<li><a href="https://policies.kat.digital/Privacy">Privacy Statement</a></li>
+					<li><a href="https://dev.kat.gg/">Developer Forum</a></li>
+					<li><a href="https://docs.kat.gg/">Documentation</a></li>
+					<li><a href="https://dev.kat.gg/g/Support/">Customer Support</a></li>
+				</ul>
+			</section>
+		</div>
+	</body>
+</html>
