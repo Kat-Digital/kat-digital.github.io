@@ -13,9 +13,7 @@ a,
 
 /* Website Content Wrapper */
 #wrapper {
-    /*max-width: 940px;*/
-	max-width: 55%;
-    /*margin: 0 auto;*/
+	max-width: 991px;
 	margin: auto;
 }
 
@@ -200,4 +198,32 @@ section#footer p {
 	line-height: 150%;
     margin: 0 10px;
 	padding-bottom: 50px;
+}
+
+@media (max-width: 1200px) {
+	#wrapper {
+		max-width: 654px;
+	}
+	
+	ul.policies li:nth-child(2n) {
+		margin-right: 0;
+	}
+	
+	section#header p {
+		margin: 0 0px;
+	}
+}
+
+@media (max-width: 850px) {
+	#wrapper {
+		max-width: 317px;
+	}
+	
+	ul.policies li {
+		margin-right: 0;
+	}
+	
+	section#header p {
+		margin: 0 0px;
+	}
 }
